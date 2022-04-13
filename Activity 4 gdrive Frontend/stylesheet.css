@@ -1,0 +1,152 @@
+#header{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+#header button{
+    border-radius: 5px;
+    margin:5px;
+    padding:10px;
+    cursor: pointer;
+} 
+#header button:hover{
+    background-color: indigo;
+    transform: scale(1.1);
+}
+.folder{
+    background-color: darkslateblue;
+    border: 1px solid rgb(12, 72, 118);
+    height: 80px;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+.folder [action]{
+    color: darkcyan;
+}
+.folder [action]:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.folder div[purpose=name]{
+    margin-top: 12px;
+    color:rgb(0, 140, 110);
+    font-weight: bold;
+}
+#breadcrumb{
+    border:1px solid black;
+    margin: 5px;
+    display: flex;
+}
+#breadcrumb a{
+    background-color: cadetblue;
+    padding: 2px;
+    border-right: 2px solid purple;
+}
+#breadcrumb a:hover{
+    font-style: italic;
+    color: rgb(39, 181, 247);
+    text-shadow: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#container{
+    border:1px solid black;
+    margin: 5px;
+    padding: 2px;
+    display: flex;
+}
+
+.text-file{
+    background-color: rgb(127, 116, 221);
+    border: 1px solid rgb(12, 72, 118);
+    height: 80px;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+.text-file [action]{
+    color: darkcyan;
+}
+.text-file [action]:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.text-file div[purpose=name]{
+    margin-top: 12px;
+    color:rgb(0, 140, 110);
+    font-weight: bold;
+}
+
+#app{
+    border:1px solid black;
+    margin: 5px;
+    
+}
+
+#app-title-bar{
+    display: flex;
+    background-color: cadetblue;
+    height: 35px;
+}
+#app-title{
+    width: 93%;
+    text-align: center;
+    
+}
+#app-menu-bar{
+    display: flex;
+    background-color: rgba(73, 199, 109, 0.892);
+    height: 45px;
+}
+#app-body{
+    display: flex;
+    background-color: slategrey;
+    height: 500px;
+}
+.notepad-body{
+    height: 100%;
+    width: 100%;
+}
+.notepad-body textarea{
+    height: 100%;
+    width: 100%;
+}
+.notepad-menu{
+    width: 100%;
+    padding: 5px;
+}
+.notepad-menu *{
+    margin: 0px 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.notepad-menu span{
+    vertical-align: bottom;
+}
+
+.notepad-menu span:hover{
+    border: 2px solid black;
+    background-origin: white;
+    color: teal;
+}
+.notepad-menu input[type=color] {
+    width: 30px;
+}
+.notepad-menu select{
+    height: 30px;
+}
+.notepad-menu [pressed=true]{
+    border: 2px white;
+    background-color: white;
+    color:teal;
+}
