@@ -2,7 +2,7 @@ body {
     font: normal 14px/100% "Andale Mono", AndaleMono, monospace;
     color: #fff;
     padding: 50px;
-    width: 300px;
+    width: 500px;
     margin: 0 auto;
     background-color: #374954;
     text-align: center;
@@ -18,15 +18,16 @@ body {
   }
   
   button {
-    display: inline-block;
+    /* display: inline-block; */
     background-color: #6bbe92;
     border: 0;
-    width: 60px;
-    margin: 10px;
+    width: 250px;
+    margin: 20px;
     text-align: center;
     color: #fff;
     font-weight: bold;
     font-size: 50px;
     cursor: pointer;
+    display: flex;
   }
   
